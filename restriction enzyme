@@ -1,0 +1,96 @@
+의생명바이오실험
+11주차 Uncut plasmid 확인 및 Restriction digestion 
+
+1.	Subject
+Uncut plasmid 확인 및 Restriction digestion 
+
+2.	purpose
+Mini-prep을 통해 획득한 DNA가 plasmid DNA가 맞는지 확인하고, uncut plasmid의 band shift 혹은 restriction digestion을 방법을 이용하여, plasmid DNA vector에 Insert DNA가 제대로 삽입이 되었는지 확인한다.
+
+3.	Principle
+1.	Restriction enzyme
+-Restriction enzyme이란?
+restriction enzyme 또는  restriction endonuclease는 dsDNA분자의 특정한 sequence를 인식하여 그 부분이나 그 주변의 nucleotide사이의 sugar-phosphate backbone절단을 촉매하는 enzyme이다. 대부분의 restriction enzyme은 각각 recognition site 혹은 restriction site이라는 특수한  sequence에서 절단한다. 제한 효소는 세균이 박테리오파지라는 바이러스의 공격을 받으면 생산하는 효소로, 바이러스의 침입으로부터 자신을 방어하는 역할을 한다. 따라서 자신의 recognition site를 methylation시켜 restriction enzyme으로부터 보호한다. 
+-restriction enzyme의 이용
+Restriction Enzyme은 유전자 cloning및 단백질 생산을 위한 DNA modification 실험에서 플라스미드 벡터에 유전자 삽입에 이용된다. 플라스미드는 MCS를 포함하는데 플라스미드 벡터에 DNA fragment를 삽입할 때 효율성을 높힌다. 
+또한 SNP를 인식하므로서 alle을 구별하는 데 사용된다. SNP가 alle에 존재하는 rectriction site를 바꾸는 경우에만 가능하다. 이방법으로 고가의 sequencing대신 DNA sample을 sequencing할 수 있다. Restriction enzyme으로 상이한 DNA fragment들을 만들고 gel electrophoresis로 분리할 것이다. 올바른 제한 효소 부위를 가진 대립 유전자는 젤에 두 개의 가시적 인 DNA 밴드를 생성 할 것이며, 변형 된 제한 효소 부위는 절단되지 않고 단일 밴드만을 생성 한다. Resctriction enzyme에 의한  DNA map은 또한 유전자의 상대적인 위치를 줄 수를 생성 할 수있다.  Restriction digestion에 의해 생성 된 DNA의 상이한 길이는 겔 전기 영동 후 대역의 특정 패턴을 제조하고 사용할 수있다 이를 footprinting이라고 한다. 유사한 방식으로 restriction enzyme은 southern blot에 의한 유전자 분석을 위해 genome DNA를 분해하는데 사용한다. 이로서 개인의 게놈에 gene copy(paralogue)가 몇개 있는 지, 또는 얼마나 많은 유전자변이가 발생했는지(예로, RELP) 식별할 수 있게 한다.
+
+2.	Sticky end 와 blunt end
+Restriction Enzyme은 크게 두종류가 있다. typeI은 specific한 sequence를 인식하지만 target site 이외의 곳을 자르고, typeII는 인식범위내에서만 자른다. 따라서 유전공학에서는 주로 TypeII를 이용한다. TypeII가 두개의 단일가닥을 자를 땐 두 가지 형태의 잘린 단편이 나타난다. 하나는 대칭면의 중심이 잘리는 blunt end이고 다른 하나는 대칭면의 주위가 잘리는 sticky end(cohesive end, 5’-overhang end)이다.
+
+3.	Restriction enzyme의 예
+-restriction enzyme의 종류
+제한 효소는 소단위체(subunit)의 구성 형태, 절단 위치, 절단 서열의 모양, 필요한 조효소 유무에 따라 3가지로 나눌 수 있다. Ⅱ형은 가장 많이 쓰이는 형태로 8개의 소분류로 나뉜다.
+Ⅰ형 (Type Ⅰ) : recognition site 와 cleavage site가 동일하다. Restriction 과 methylase activity 기능을 둘 다 가지고 있다.
+제한 효소와 메틸화효소가 뭉쳐져 있고, 인식자리와 제한 자리가 서로 다르다. 염기서열은 특이적으로 인식하지만, 인식자리에서 약 1000개 염기 정도 떨어진 곳에서 비특이적으로 DNA를 자른다. 또한 활성에 ATP나 S-아데노실메티오닌, 마그네슘이온(Mg2+)등을 필요로 한다. DNA 절단 위치의 특이성이 없기 때문에 실험 목적으로는 거의 사용하지 않는다.
+Ⅱ형 (Type Ⅱ) : recognition site 에서 조금 떨어진 부위에서 cleavage 가 일어난다. Methylase 기능이 없는 single function enzyme 이다.
+인식자리가 특이적이고 제한 자리 또한 주변의 염기로 특이적으로 작용한다. 실험실에서 주로 사용하는 것이 이 Ⅱ형이다. Ⅱ형 안에는 연관성이 낮은 여러 가지 제한 효소가 섞여 있어서, 8개형으로 세분하여 분류한다.
+1.	orthodox Ⅱ형
+•	Ⅱ형 중 가장 흔하고, 메틸화효소와는 독립적으로 존재하며 인식 자리 내부에서 절단이 일어난다. 인식서열은 보통 회문(palindrome)을 이루고, DNA 양쪽 가닥을 모두 절단하여 점착말단 또는 평활말단 형태를 만든다. 제한 효소 활성을 위해서 Mg2+가 필요하며, 효소는 대개 200-350개의 아미노산으로 이루어져있다.
+•	EcoRI, BamHI, HindⅢ, kpnⅠ, NotⅠ, PstⅠ, SmaⅠ, XhoⅠ 등이 있다.
+2.	ⅡS형
+•	메틸화효소와는 독립적으로 존재하고, 인식 자리 외부에서 DNA절단이 일어난다. 인식 서열이 비대칭이다. 한 개 효소만으로도 인식 서열 DNA에 결합할 수 있지만, 절단하기 위해서는 다른 효소와 이합체를 이루어야한다. 따라서 인식자리가 많은 DNA가 훨씬 더 활발하게 절단이 일어나게 된다. 효소의 활성을 위해 Mg2+가 필요하며, 효소는 대체로 400-460개의 아미노산으로 이루어져 있다.
+•	FokⅠ, Alw26Ⅰ, BbvⅠ, BsrⅠ, EarⅠ, HphⅠ, MboⅠ, SfaNⅠ, Tth111Ⅰ 등이 있다.
+3.	ⅡE형
+•	2개의 인식자리와 반응한다. 하나는 제한 효소에 의해 절단되고 나머지 하나는 다른자리입체성효과기(allosteric effector)로 작용한다.
+•	NaeⅠ 등이 있다.
+4.	ⅡF형
+•	2개의 인식자리에서 반응하여 2자리 모두 절단한다.
+•	NgoM Ⅳ 등이 있다.
+5.	ⅡT형
+•	제한과 메틸화 활성을 가지는 두 부분의 소단위체로 이루어져 있다.
+6.	ⅡG형
+•	ⅡB형 같이 S-아데노실메티오닌을 필요로 한다. 제한 효소와 메틸화 효소가 한 폴리펩타이드 안에 있다.
+•	Eco57Ⅰ 등이 있다.
+7.	ⅡM형
+•	메틸화효소에 의해 메틸화된 DNA를 절단하는 역할을 한다.
+8.	ⅡB형
+•	제한, 메틸화, 인식 기능의 활성이 도메인별로 분리되어 있어 이질이합체(heterodimer) 나 이질삼합체(heterotrimer)를 이루어야 활성을 가진다. 인식자리의 염기서열은 대칭적, 비대칭적 두 가지 경우를 모두 포함한다. 효소가 작용하기 위해서는 Mg2+와 S-아데노실메티오닌이 필요하고, 크기는 850-1250개 사이의 아미노산으로 되어있다.
+•	BcgⅠ, BpⅠ, Bsp24Ⅰ, BaeⅠ, CjeⅠ 등이 있다.
+Ⅲ형 (Type Ⅲ) : recognition site 에서 조금 떨어진 부위에서 cleavage 가 일어난다. ATP를 필요로 한다. Modification methylase 와 함께 complex를 이룬 채로 존재한다.
+Ⅰ형과 마찬가지로, 제한 효소와 메틸화효소가 합쳐져 있다. 효소 활성에 ATP가 꼭 필요하고, 완전 절단이 거의 일어나지 않는 특징이 있다. DNA를 자르기 위해서는 DNA 분자 반대 방향으로 놓여 있는 또 다른 인식 염기서열이 있어야 한다. EcoPⅠ, HintⅢ, StyLTⅠ 등이 Ⅲ형에 해당한다.
+Type IV enzyme: methylated 또는 hydroxymethylated DNA 등과 같은 modified DNA를 targeting 한다.
+- Restriction enzyme명명
+제한 효소의 이름은 보통 발견된 세균의 속명, 종명, 균주(strain)와 발견 순서에 따라 부여된다. 예로 EcoRⅠ는 Escherichia coli RY13(앞에서 부터 속, 종, strain을 의미한다.) 에서 속명의 앞글자 E와 종명의 앞글자 co, strain명에서 R, 첫 번째 발견했다는 의미의 Ⅰ을 합해서 만들어졌다. HinfⅡ도 역시 Haemophilus influenza type f의 속명에서 H, 종명에서 in, strain에서 f, 발견된 순서에 따라 Ⅱ가 붙었다.
+Derivation of the EcoRI name
+Abbreviation	Meaning	Description
+E	Escherichia	genus
+co	coli	specific epithet
+R	RY13	strain
+I	First identified	order of identification
+in the bacterium
+
+
+
+-restrcition enzyme의 예
+wikipedia 참고
+
+
+4.	Materials
+Pipette, Microtips, 1.5ml microtube, Heat block,
+Mini-prep plasmid DNA, Restriction enzyme, 10X Restriction enzyme buffer, D.W.
+5.	Method
+-Restriction digestion 실험 방법 
+(1) Mini-prep DNA를 buffer와 restriction enzyme과 아래 조성에 맞 춰 양이 많은 것부터 순서대로 1.5ml microtube에 넣어준다. 
+첨가물 	넣어준 양(㎕)
+Mini-prep DNA 	2
+10X restriction buffer 	3
+Restriction enzyme (1~5U) 	1
+D.W. 	24
+Total 	30
+
+(2) 37℃에서 1시간가량 restriction digestion. 
+(3) Uncut plasmid electrophoresis 일 경우, sample loading 순서 
+(사진추가)
+(4) Restriction digestion 일 경우, sample loading 순서 
+(사진추가)
+주의사항
+Restriction enzyme의 enzyme activity를 오랫동안 유지시키기 위해 상온에 오랫동안 방치하지 않고, 사용 즉시 ice cooler에 다시 꽂아둔다.
+Loading 할 sample의 순서를 틀리지 않는다. 
+Plasmid DNA가 complete cut이 되도록 한다.
+ 
+6.reference
+단국대학교분자생물학과, 『의생명바이오실험서』, 단국대학교, p94~103.
+Wikipedia. "Restriction enzyme", https://en.wikipedia.org/wiki/Restriction_enzyme (accessed semtember 08, 2017)
+위키백과. "제한효소", https://en.wikipedia.org/wiki/제한_효소 (accessed semtember 08, 2017)
+
